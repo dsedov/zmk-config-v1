@@ -44,7 +44,7 @@ As such, those are in use within the default layer at this time.*/
               };
               raise_layer {
                      bindings = <
-       &trans    &trans &trans &trans &trans  &kp RET                      &kp BSPC  &mt RALT BSPC    &trans     &kp UP       &trans       &trans
+       &trans    &trans &trans &trans &trans  &kp RET                      &kp BSPC  &kp RA(BSPC)     &trans     &kp UP       &trans       &trans
        &trans    &trans &trans &trans &trans  &trans                       &trans    &trans           &kp LEFT   &kp DOWN     &kp RIGHT    &trans
        &trans    &trans &trans &trans &trans  &trans                       &trans    &trans           &trans     &trans       &trans       &trans
        &trans    &trans &trans &trans &trans  &trans  &trans        &trans &trans    &trans           &trans     &trans       &trans       &trans
