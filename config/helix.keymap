@@ -19,6 +19,18 @@
 /* NOTE: At the time of the creation of this keymap, there are no specified codes for 'eisuu' and 'kana' input in ZMK.
 However, 'LANG1' and 'LANG2' are fully-functioning candidates for 'kana' and 'eisuu' input respectively.
 As such, those are in use within the default layer at this time.*/
+/* QWERTY
+       default_layer {
+                     bindings = <
+       &kp ESC    &kp Q       &kp W     &kp E     &kp R     &kp T                                &kp Y      &kp U     &kp I      &kp O      &kp P      &kp BSPC  
+       &kp RET    &kp A       &kp S     &kp D     &kp F     &kp G                                &kp H      &kp J     &kp K      &kp L      &kp SEMI   &kp SQT   
+       &kp LSHFT  &kp Z       &kp X     &kp C     &kp V     &kp B                                &kp N      &kp M     &kp COMMA  &kp PERIOD &kp QMARK  &kp RSHIFT    
+       &none      &none       &kp LCTRL &kp LWIN  &mo LOWER &kp SPACE  &none              &none  &kp RSHIFT &mo RAISE &mo LOWER  &kp RALT   &none      &none
+       &none      &none       &none     &none     &none     &none      &none              &none  &none      &none     &none      &none      &none      &none
+                     >;
+              };
+
+*/
 
 / {
        keymap {
@@ -26,9 +38,9 @@ As such, those are in use within the default layer at this time.*/
  
               default_layer {
                      bindings = <
-       &kp ESC    &kp Q       &kp W     &kp E     &kp R     &kp T                                &kp Y      &kp U     &kp I      &kp O      &kp P      &kp BSPC  
-       &kp RET    &kp A       &kp S     &kp D     &kp F     &kp G                                &kp H      &kp J     &kp K      &kp L      &kp SEMI   &kp SQT   
-       &kp LSHFT  &kp Z       &kp X     &kp C     &kp V     &kp B                                &kp N      &kp M     &kp COMMA  &kp PERIOD &kp QMARK  &kp RSHIFT    
+       &kp ESC    &kp Q       &kp W     &kp F     &kp P     &kp G                                &kp J      &kp L     &kp U      &kp Y      &kp SEMI   &kp BSPC  
+       &kp RET    &kp A       &kp R     &kp S     &kp T     &kp D                                &kp H      &kp N     &kp E      &kp I      &kp O      &kp SQT   
+       &kp LSHFT  &kp Z       &kp X     &kp C     &kp V     &kp B                                &kp K      &kp M     &kp COMMA  &kp PERIOD &kp QMARK  &kp RSHIFT    
        &none      &none       &kp LCTRL &kp LWIN  &mo LOWER &kp SPACE  &none              &none  &kp RSHIFT &mo RAISE &mo LOWER  &kp RALT   &none      &none
        &none      &none       &none     &none     &none     &none      &none              &none  &none      &none     &none      &none      &none      &none
                      >;
