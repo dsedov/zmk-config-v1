@@ -41,7 +41,7 @@ As such, those are in use within the default layer at this time.*/
        &kp ESC    &kp Q       &kp W     &kp F     &kp P     &kp G                                &kp J      &kp L     &kp U      &kp Y      &kp SEMI   &kp BSPC  
        &kp RET    &kp A       &kp R     &kp S     &kp T     &kp D                                &kp H      &kp N     &kp E      &kp I      &kp O      &kp SQT   
        &kp LSHFT  &kp Z       &kp X     &kp C     &kp V     &kp B                                &kp K      &kp M     &kp COMMA  &kp PERIOD &kp QMARK  &kp RSHIFT    
-       &none      &kp LCTRL   &kp LALT  &kp LWIN  &mo LOWER &kp SPACE  &none              &none  &kp RSHIFT &mo RAISE &mo LOWER  &kp RALT   &kp RCTRL  &mo ADJUST
+       &k TAB     &kp LCTRL   &kp LALT  &kp LWIN  &mo LOWER &kp SPACE  &none              &none  &kp RSHIFT &mo RAISE &mo LOWER  &kp RALT   &kp RCTRL  &mo ADJUST
        &none      &none       &none     &none     &none     &none      &none              &none  &none      &none     &none      &none      &none      &none
                      >;
               };
@@ -64,14 +64,8 @@ As such, those are in use within the default layer at this time.*/
                      >;
               };
               adjust_layer {
- // ---------------------------------------------------------------------------------------------------------------------------------
- // |    `     |    !     |    @     |    #     |    $     |    %     |                                          |    ^     |    &     |    *     |    (     |    )     |  EP TOG  |
- // |  BT CLR  | BT SEL0  | BT SEL1  | BT SEL2  | BGT SEL3 | BT SEL4  |                                          | RGB EFF+ | RGB HUE+ | RGB SAT+ | RGB SPD+ | RGB BRI+ | RGB TOG  |
- // |  BT NXT  | OUT TOG  | OUT USB  | OUT BLE  |          |          |                                          | RGB EFF- | RGB HUE- | RGB SAT- | RGB SPD- | RGB BRI- |          |
- // |  BT PRV  |          |          |          |          |          |    {     |                    |    }     |          |          |          |          |          |          |
- // |          |          |          |          |          |          |          |                    |          |          |          |          |          |          |          |
                      bindings = <
-       &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 3 &trans                   &trans          &trans          &trans          &trans          &trans          &bt BT_CLR
+       &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans                                &trans          &trans          &trans          &trans          &trans          &bt BT_CLR
        &trans        &trans       &trans       &trans       &trans       &trans                                &trans          &trans          &trans          &trans          &trans          &trans 
        &trans        &trans       &trans       &trans       &trans       &trans                                &trans          &trans          &trans          &trans          &trans          &trans
        &trans        &trans       &trans       &trans       &trans       &trans       &trans          &trans   &trans          &trans          &trans          &trans          &trans          &trans
