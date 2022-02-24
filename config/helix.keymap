@@ -38,9 +38,9 @@ As such, those are in use within the default layer at this time.*/
  
               default_layer {
                      bindings = <
-       &kp ESC    &kp Q       &kp W     &kp F     &kp P     &kp G                                &kp J      &kp L     &kp U      &kp Y      &kp SEMI   &kp BSPC  
-       &kp RET    &kp A       &kp R     &kp S     &kp T     &kp D                                &kp H      &kp N     &kp E      &kp I      &kp O      &kp SQT   
-       &kp LSHFT  &kp Z       &kp X     &kp C     &kp V     &kp B                                &kp K      &kp M     &kp COMMA  &kp PERIOD &kp QMARK  &kp RSHIFT    
+       &kp ESC    &kp Q       &kp W     &kp F     &kp P     &kp B                                &kp J      &kp L     &kp U      &kp Y      &kp SEMI   &kp BSPC  
+       &kp RET    &kp A       &kp R     &kp S     &kp T     &kp G                                &kp M      &kp N     &kp E      &kp I      &kp O      &kp SQT   
+       &kp LSHFT  &kp Z       &kp X     &kp C     &kp D     &kp V                                &kp K      &kp H     &kp COMMA  &kp PERIOD &kp SLASH  &kp RSHIFT    
        &kp TAB    &kp LCTRL   &kp LALT  &kp LWIN  &kp SPACE &mo LOWER  &none              &none  &mo RAISE  &kp SPACE &kp RWIN   &kp RALT   &kp RCTRL  &mo ADJUST
        &none      &none       &none     &none     &none     &none      &none              &none  &none      &none     &none      &none      &none      &none
                      >;
