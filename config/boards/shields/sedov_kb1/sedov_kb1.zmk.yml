@@ -1,0 +1,8 @@
+file_format: "1"
+id: sedov_kb1
+name: sedov_kb1
+type: shield
+url: https://github.com/
+requires: [pro_micro]
+features:
+  - keys
