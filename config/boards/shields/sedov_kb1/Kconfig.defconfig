@@ -1,7 +1,7 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_EEK
+if SHIELD_SEDOV_KB1
 
 config ZMK_KEYBOARD_NAME
     default "SEDOV1"
