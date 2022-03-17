@@ -4,6 +4,6 @@
 if SHIELD_EEK
 
 config ZMK_KEYBOARD_NAME
-    default "SEDOV KB1"
+    default "SEDOV1"
 
 endif
