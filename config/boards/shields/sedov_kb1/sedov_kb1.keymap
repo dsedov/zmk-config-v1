@@ -32,17 +32,7 @@
                 &kp LCTRL  &kp LALT    &mo MOUSEL &mo ADJUST  &mo LOWER &kp SPACE             &kp SPACE  &mo RAISE &kp LBKT   &kp RBKT   &kp HOME   &kp END
             >;
         };
-
         lower_layer {
-           bindings = <
-                &kp TILDE  &kp N1      &kp N2    &kp N3    &kp N4    &kp N5                   &kp N6     &kp N7    &kp N8     &kp N9     &kp N0     &trans 
-                &trans     &trans      &trans    &trans    &trans    &trans                   &trans     &trans    &trans     &kp MINUS  &kp EQUAL  &kp BSLH 
-                &trans     &trans      &trans    &trans    &trans    &trans                   &trans     &trans    &trans     &trans     &trans     &trans
-                &trans     &trans      &trans    &trans    &trans    &trans                   &trans     &trans    &trans     &trans     &trans     &trans
-            >;
-        };
-
-        raise_layer {
             bindings = <
                 &kp TILDE  &kp F1      &kp F2    &kp F3    &kp F4    &kp F5                   &kp F6     &kp F7           &kp F8      &kp F9       &kp F10        &kp DEL  
                 &trans     &trans      &kp F2    &kp F3    &kp F4    &kp F5                   &trans     &kp HOME         &kp UP      &kp END      &trans         &trans           
@@ -50,7 +40,14 @@
                 &trans     &trans      &trans    &trans    &trans    &trans                   &trans     &trans           &trans      &trans       &trans         &trans
             >;
         };
-
+        raise_layer {
+           bindings = <
+                &kp TILDE  &kp N1      &kp N2    &kp N3    &kp N4    &kp N5                   &kp N6     &kp N7    &kp N8     &kp N9     &kp N0     &trans 
+                &trans     &trans      &trans    &trans    &trans    &trans                   &kp UNDER  &kp PLUS  &kp MINUS  &kp EQUAL  &trans &kp BSLH 
+                &trans     &trans      &trans    &trans    &trans    &trans                   &trans     &trans    &trans     &trans     &trans     &trans
+                &trans     &trans      &trans    &trans    &trans    &trans                   &trans     &trans    &trans     &trans     &trans     &trans
+            >;
+        };
         adjust_layer {
             bindings = <
                 &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans      &trans          &trans          &trans          &trans          &trans          &bt BT_CLR
