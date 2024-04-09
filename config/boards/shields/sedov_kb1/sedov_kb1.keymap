@@ -60,7 +60,7 @@
             bindings = <
                 &trans        &trans       &trans       &trans       &trans       &trans              &trans      &trans       &trans       &trans          &trans          &trans
                 &trans        &trans       &trans       &trans       &trans       &trans              &trans      &trans       &trans       &trans          &trans          &trans 
-                &trans        &trans       &trans       &trans       &trans       &trans              &trans      &mkp MOVE_LEFT   &trans       &trans          &trans          &trans 
+                &trans        &trans       &trans       &trans       &trans       &trans              &trans      &mmv MOVE_LEFT   &trans       &trans          &trans          &trans 
                 &trans        &trans       &trans       &trans       &trans       &trans              &trans      &trans       &trans       &trans          &trans          &trans
             >;
         };
