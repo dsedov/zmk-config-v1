@@ -35,9 +35,9 @@
         };
         lower_layer {
            bindings = <
-           &kp KP_MINUS    &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp KP_PLUS 
-               &kp LBKT    &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp RBKT  
-                &kp SQT    &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp NUBS   
+           &kp TILDE       &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp KP_PLUS 
+               &kp LBRC    &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp RBRC  
+                &kp SQT    &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp PIPE   
                 &kp UNDER  &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp KP_EQUAL   
                 &trans     &trans                 &trans                &trans                           &trans                &trans     &trans   
             >;
@@ -45,9 +45,9 @@
         raise_layer {
            bindings = <
            &kp KP_MINUS    &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp KP_PLUS 
-               &kp LBKT    &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp RBKT  
-                &kp SQT    &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp NUBS   
-                &kp UNDER  &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp KP_EQUAL   
+               &kp LBKT    &trans      &trans     &trans      &trans    &trans      &trans     &kp HOME  &kp UP     &kp END    &trans     &kp RBKT  
+                &kp SQT    &trans      &trans     &trans      &trans    &trans      &trans     &kp LEFT  &kp DOWN   &kp RIGHT  &trans     &kp NUBS   
+                &kp UNDER  &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &kp INS    &kp KP_EQUAL   
                 &trans     &trans                 &trans                &trans                           &trans                &trans     &trans   
             >;
         };
@@ -55,7 +55,7 @@
            bindings = <
            &kp KP_MINUS    &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp KP_PLUS 
                &kp LBKT    &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp RBKT  
-                &kp SQT    &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp NUBS   
+                &kp DQT    &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp NUBS   
                 &kp UNDER  &trans      &trans     &trans      &trans    &trans      &trans     &trans    &trans     &trans     &trans     &kp KP_EQUAL   
                 &trans     &trans                 &trans                &trans                           &trans                &trans     &trans   
             >;
