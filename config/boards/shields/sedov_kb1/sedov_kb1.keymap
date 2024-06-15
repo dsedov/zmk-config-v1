@@ -30,7 +30,7 @@
                 &kp TAB    &kp LBKT    &kp Q       &kp W      &kp E       &kp R     &kp T       &kp Y      &kp U      &kp I      &kp O      &kp P        &kp RBKT    &kp RET  
                            &kp BSLH    &kp A       &kp S      &kp D       &kp F     &kp G       &kp H      &kp J      &kp K      &kp L      &kp SEMI     &kp SQT 
                            &kp LSHFT   &kp Z       &kp X      &kp C       &kp V     &kp B       &kp N      &kp M      &kp COMMA  &kp PERIOD &kp SLASH    &kp RSHIFT 
-                &kp LCTRL              &kp LALT               &mo LOWER             &kp SPACE   &kp SPACE             &mo RAISE             &kp RALT                &kp RCTRL  
+                &kp LCTRL              &kp LCMD               &mo LOWER             &kp SPACE   &kp SPACE             &mo RAISE             &kp RCMD                &kp RCTRL  
             >;
         };
         lower_layer {
