@@ -43,7 +43,7 @@
         };
         raise_layer {
            bindings = <
-                &trans     &kp F1      &kp F2      &kp F3     &kp F4      &kp F5    &kp F6                              &kp F7     &kp F8     &kp F9     &kp F10    &trans       &trans      &kp DEL 
+                &kp C_RESET     &kp F1      &kp F2      &kp F3     &kp F4      &kp F5    &kp F6                              &kp F7     &kp F8     &kp F9     &kp F10    &trans       &trans      &kp DEL 
                 &trans     &trans      &trans      &trans     &trans      &trans    &trans                              &trans     &trans     &kp PG_UP  &kp UP     &kp PG_DN    &trans      &kp KP_ENTER  
                            &trans      &trans      &trans     &trans      &trans    &trans                              &trans     &trans     &kp LEFT   &kp LEFT   &kp DOWN     &kp RIGHT 
                            &trans      &trans      &trans     &trans      &trans    &trans                              &trans     &trans     &kp HOME   &kp END    &trans       &trans  
